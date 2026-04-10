@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url('../img/1509694.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    color: #fff;
+}
+
+header img {
+    width: 350px;
+    margin-left: 90px;
+    margin-bottom: 3px;
+}
+
+nav ul {
+    max-width: 480px;
+    margin: 20px ;
+    margin-top: 0px;
+    padding: 1px;
+    padding-left: 25px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #469bd2;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:hover{
+    color: #469bd2;
+}
+
+main {
+    width: 500px;
+    text-align: left;
+    margin: 20px ;
+}
+section img {
+
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.raiden {
+    height: auto;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.armstrong {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.spotify {
+    margin: 20px;
+    margin-left: 0px;
+    height: 360px;
+    width: 490px;
+}
+
+section iframe {
+    margin: 0px;
+    border-radius: 10px;
+    width: 490px;
+    height: 250px;
+}
+
+section ol {
+    margin: 20px;
+}
+
+
+h1 {
+    color: #469bd2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.voltar-ao-topo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #469bd2;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition:all;
+}
+
+.voltar-ao-topo:active {
+    font-size: 10px;
+}
